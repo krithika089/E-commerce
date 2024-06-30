@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Tilt+Neon&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Martian Mono", monospace;
+  font-size: 15px;
+}
+body{
+   font-size: 16px;
+   background-color: antiquewhite;
+   font-family:  "Tilt Neon", sans-serif;;
+}
+
+.align_item{
+  display: flex;
+  align-items: center;
+}
+.search_button{
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(92, 176, 249);
+  cursor: pointer;
+}
+.search_button:hover{
+  background-color: rgb(77, 147, 208);
+}
+
+a{
+  font-size: 13px;
+  font-weight: 200;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 12px;
+  margin: 0;
+}
